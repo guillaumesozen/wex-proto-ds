@@ -3,7 +3,7 @@ $warning: #f87526;
 $danger: #fd3b37;
 $disabled: #aeb8c0;
 $white: #ffffff;
-$radius-button: 5px;
+$radius-button: 0px;
 
 $box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.1);
 $box-shadow-hover: 0px 2px 3px 2px rgba(0,0,0,0.2);
@@ -21,11 +21,12 @@ $button-text-color: $white;
   box-shadow: $box-shadow;
   color: $button-text-color;
   margin: 1em 0.5em;
-  padding: 1em 2em;
+  padding: 1em 4em;
   font-size: 1em;
   border: 1px solid gray;
   cursor: pointer;
   background-color: gray;
+  text-transform: uppercase;
   
   &:hover {
     box-shadow: $box-shadow-hover;

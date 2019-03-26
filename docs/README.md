@@ -10,6 +10,10 @@ Avec NPM (https://www.npmjs.com/package/wex-proto-ds) :
 
 `npm i wex-proto-ds`
 
+Vous pouvez préciser une version spécifique si vous le souhaitez : 
+
+`npm install wex-proto-ds@1.0.2`
+
 
 Avec Bower :
 
@@ -32,7 +36,7 @@ Avec Bower :
 
 ## Boutons
 
-![](https://i.ibb.co/xC0wJNP/Capture-d-e-cran-2019-03-26-a-20-45-30.png)
+![](https://i.ibb.co/9WGSDLN/Capture-d-e-cran-2019-03-27-a-00-23-54.png)
 
 
 <!-- tabs:start -->
@@ -84,7 +88,7 @@ Disabled
 
 ## Nav
 
-![](https://i.ibb.co/6HW4hJy/Capture-d-e-cran-2019-03-26-a-21-08-38.png)
+![](https://i.ibb.co/HTwvL3b/Capture-d-e-cran-2019-03-27-a-00-24-06.png)
 
     <nav class="l-nav">
       <ul class="l-nav__list">
@@ -100,7 +104,7 @@ Disabled
       </ul>
     </nav>
 
-![](https://i.ibb.co/TMPf76K/Capture-d-e-cran-2019-03-26-a-21-10-13.png)
+![](https://i.ibb.co/5Ry7hTY/Capture-d-e-cran-2019-03-27-a-00-24-38.png)
 
     <nav class="l-nav">
       <ul class="l-nav__list">

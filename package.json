@@ -1,6 +1,6 @@
 {
   "name": "wex-proto-ds",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "wexperience prototype design system",
   "main": "index.js",
   "scripts": {

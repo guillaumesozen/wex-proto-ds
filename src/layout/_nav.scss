@@ -1,13 +1,13 @@
 .l-nav{
     &__list{
-      background-color: #000;
+      background-color: #fabc00;
       display: block;
       list-style-type: none;
       overflow: hidden;
       margin: 0;
       padding: 0;
       &--is-sub{
-        background-color: #666;
+        background-color: #a27a00;
         left: -100%;
         min-width: 200px;
         position: absolute;
@@ -17,18 +17,19 @@
       }
     }
     &__item{
+      text-transform: uppercase;
       display: inline-block;
       &:hover{
         .l-nav__list--is-sub{
           left: auto;
           .l-nav__link{
             &:hover{
-              background-color: #555;
+              background-color: #c29201;
             }
           }
         }
         .l-nav__link{
-          background-color: #666;
+          background-color: #a27a00;
         }
       }
     }
