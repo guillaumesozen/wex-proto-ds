@@ -1,0 +1,24 @@
+{
+  "name": "wex-proto-ds",
+  "version": "1.0.1",
+  "description": "wexperience prototype design system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumesozen/wex-proto-ds.git"
+  },
+  "keywords": [
+    "design",
+    "system",
+    "wexperience"
+  ],
+  "author": "WexIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillaumesozen/wex-proto-ds/issues"
+  },
+  "homepage": "https://github.com/guillaumesozen/wex-proto-ds#readme"
+}

@@ -1,0 +1,55 @@
+$success: #2ed13b;
+$warning: #f87526;
+$danger: #fd3b37;
+$disabled: #aeb8c0;
+$white: #ffffff;
+$radius-button: 30px;
+
+$box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.1);
+$box-shadow-hover: 0px 2px 3px 2px rgba(0,0,0,0.2);
+
+$button-icon-padding: 1em;
+$button-text-color: $white;
+
+@mixin button-style($button-color) {
+  border: 1px solid $button-color;
+  background: $button-color;
+}
+
+.o-btn {
+  border-radius: $radius-button;
+  box-shadow: $box-shadow;
+  color: $button-text-color;
+  margin: 1em 0.5em;
+  padding: 1em 2em;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
+  
+  &[disabled] {
+    background-color: $disabled;
+    border: 1px solid $disabled;
+    cursor: not-allowed;
+  }
+  
+  &--success {
+    @include button-style($success);
+  }
+  
+  &--warning {
+    @include button-style($warning);
+  }
+ 
+  &--danger {
+    @include button-style($danger);
+  }
+  
+  &__text {
+    font-size: 1.5em;  
+  }
+  
+}

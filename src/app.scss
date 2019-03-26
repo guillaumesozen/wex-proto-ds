@@ -1,0 +1,26 @@
+/* ----- SETTINGS ----- */
+/* Legacies, settings and overall configuations */
+
+@import "base/_colors";
+@import "base/_fonts";
+@import "base/_resets";
+
+/* ----- LAYOUT ----- */
+/* Layout and general components' style */
+
+@import "layout/_body";
+@import "layout/_nav";
+
+/* ----- COMPONENTS ----- */
+/* Specific and small items' style */
+
+@import "components/_searchbar";
+
+/* ----- OBJECTS ----- */
+/* Containers, forms, et others specific general items' style */
+
+@import "objects/_buttons";
+
+/* ----- UTILS ----- */
+
+@import "utils/_utils";
