@@ -1,6 +1,10 @@
 # Bienvenue
 
-Hello ! Vous retrouverez ici toutes les infos pour utiliser le **Design System Wexperience**. N'hésitez pas à **contribuer** via notre ce repo git public.
+N'hésitez pas à **contribuer** via notre repo public : https://github.com/guillaumesozen/wex-proto-ds :)
+
+# Release notes
+
+A venir...
 
 # Commencer
 
