@@ -1,6 +1,6 @@
 # Bienvenue
 
-N'hésitez pas à **contribuer** via notre repo public : https://github.com/guillaumesozen/wex-proto-ds :)
+N'hésitez pas à **contribuer** via notre repo public : https://github.com/guillaumesozen/wex-proto-ds
 
 # Release notes
 
