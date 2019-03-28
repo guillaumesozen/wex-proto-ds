@@ -77,6 +77,7 @@ Disabled
     <span class="o-btn__text">Disabled</span>
     </button>
 
+
 #### ** Usage **
 
 | ClassName                         |Usage                         |
@@ -86,51 +87,53 @@ Disabled
 |`o-btn o-btn--warning`|Bouton de prévention|
 |`o-btn o-btn--danger`|Bouton avec action négative|
 
-
 <!-- tabs:end -->
 
+<!-- 
+
+[codepenbutton website](https://codepen.io/gandre/pen/RdXjbJ ':include :type=iframe width=100% height=600px')
+
+-->
 
 ## Nav
 
-![](https://i.ibb.co/HTwvL3b/Capture-d-e-cran-2019-03-27-a-00-24-06.png)
-
-    <nav class="l-nav">
-      <ul class="l-nav__list">
-        <li class="l-nav__item">
-          <a class="l-nav__link" href="#">Accueil</a>
-        </li>
-        <li class="l-nav__item">
-          <a class="l-nav__link" href="#">A propos</a>
-        </li>
-        <li class="l-nav__item">
-          <a class="l-nav__link" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-
 ![](https://i.ibb.co/5Ry7hTY/Capture-d-e-cran-2019-03-27-a-00-24-38.png)
 
-    <nav class="l-nav">
-      <ul class="l-nav__list">
-        <li class="l-nav__item">
-          <a class="l-nav__link" href="#">Accueil</a>
-        </li>
-        <li class="l-nav__item">
-          <a class="l-nav__link" href="#">A propos</a>
-          <ul class="l-nav__list  l-nav__list--is-sub">
+        <nav class="l-nav">
+          <ul class="l-nav__list">
             <li class="l-nav__item">
-              <a class="l-nav__link" href="#">Mission</a>
+              <a class="l-nav__link" href="#">Accueil</a>
             </li>
             <li class="l-nav__item">
-              <a class="l-nav__link" href="#">Culture</a>
+              <a class="l-nav__link" href="#">A propos</a>
+              <ul class="l-nav__list  l-nav__list--is-sub">
+                <li class="l-nav__item">
+                  <a class="l-nav__link" href="#">Mission</a>
+                </li>
+                <li class="l-nav__item">
+                  <a class="l-nav__link" href="#">Culture</a>
+                </li>
+              </ul>
+            </li>
+            <li class="l-nav__item">
+              <a class="l-nav__link" href="#">Contact</a>
+              <ul class="l-nav__list  l-nav__list--is-sub">
+                <li class="l-nav__item">
+                  <a class="l-nav__link" href="#">Directions</a>
+                </li>
+                <li class="l-nav__item">
+                  <a class="l-nav__link" href="#">Option deux</a>
+                </li>
+                <li class="l-nav__item">
+                  <a class="l-nav__link" href="#">Option trois...</a>
+                </li>
+              </ul>
             </li>
           </ul>
-        </li>
-        <li class="l-nav__item">
-          <a class="l-nav__link" href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
+        </nav>
+
+[codepennav website](https://codepen.io/gandre/pen/gEVXwZ ':include :type=iframe width=100% height=400px')
+
 
 ## SearchBar
 
