@@ -36,8 +36,6 @@ Avec Bower :
 
 # Composants
 
-
-
 ## Boutons
 
 ![](https://i.ibb.co/9WGSDLN/Capture-d-e-cran-2019-03-27-a-00-23-54.png)
@@ -94,7 +92,17 @@ Disabled
 [codepenbutton website](https://codepen.io/gandre/pen/RdXjbJ ':include :type=iframe width=100% height=600px')
 
 -->
+## Inputs
 
+![](https://i.ibb.co/6JFY0gp/Capture-d-e-cran-2019-04-02-a-14-12-37.png)
+
+    <div class="o-input">      
+      <input type="text" required class="o-input__text">
+      <span class="o-input__highlight"></span>
+      <span class="o-input__bar"></span>
+      <label class="o-input__label">Email</label>
+    </div>
+    
 ## Nav
 
 ![](https://i.ibb.co/5Ry7hTY/Capture-d-e-cran-2019-03-27-a-00-24-38.png)
@@ -131,9 +139,6 @@ Disabled
             </li>
           </ul>
         </nav>
-
-[codepennav website](https://codepen.io/gandre/pen/gEVXwZ ':include :type=iframe width=100% height=400px')
-
 
 ## SearchBar
 
